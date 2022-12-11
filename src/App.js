@@ -1,7 +1,13 @@
-import "./App.css";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import NewListings from "./components/NewListings";
+import './App.css';
+import Footer from './components/Footer';
+import Happen from './components/Happen';
+import Hero from './components/Hero';
+import Info from './components/Info';
+import Navbar from './components/Navbar';
+import NewListings from './components/NewListings';
+import News from './components/News';
+import Recommendations from './components/Recommendations';
+import Trends from './components/Trends';
 
 function App() {
   return (
@@ -12,10 +18,17 @@ function App() {
       <Hero />
       {/* New Listings */}
       <NewListings />
-      {/* Take Action */}
-      {/* Stickers */}
-      {/* Related */}
-      {/* Footer */}
+      {/* Recommended Locations */}
+      <Recommendations />
+      {/* Happenings */}
+      <Happen />
+      {/* Trends */}
+      <Trends />
+      {/* News */}
+      <News />
+      {/*Info */}
+      <Info />
+      <Footer />
     </div>
   );
 }
