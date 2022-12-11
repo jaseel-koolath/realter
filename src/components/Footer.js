@@ -23,7 +23,7 @@ function Footer() {
     <div className='bg-black text-white'>
       <div className='max-w-[95vw] lg:max-w-[1280px] mx-auto py-8 '>
         <div className='flex flex-col md:flex-row justify-between'>
-          <div className='flex justify-between my-2'>
+          <div className='flex space-x-6 my-2'>
             <BsFacebook className='w-[35px] h-[35px]' />
             <BsInstagram className='w-[35px] h-[35px]' />
             <BsTwitter className='w-[35px] h-[35px]' />
